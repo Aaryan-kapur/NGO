@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(60, 124, 255);
+}
+.mainText {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main {
+  color: white;
+  font-size: 5rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 576px) {
+  .main {
+    font-size: 2rem;
+  }
+}
+.button-main {
+  border-radius: 30px;
+
+  height: 40px;
+  margin-top: 40px;
+}
+.text-button {
+  font-size: 1rem;
+}
+.dabba {
+  width: 100%;
+  text-align: center;
+  height: 25vh;
+  background-color: white;
+  bottom: 0%;
+  position: absolute;
+}
+.dabbaText {
+  color: black;
+
+}
+.div2 {
+  position: relative;
+  top: 100vh;
+  text-align: center;
+}
+.card {
+  text-align: center;
+}
+.div3 {
+  position: relative;
+  margin-top: 120vh;
+}
+.dabbadiv4 {
+  width: 100%;
+  text-align: center;
+  height: 25vh;
+  background-color: rgb(60, 124, 255);
+
+  color: white !important;
+}
+.dabbadiv3 {
+  width: 100%;
+  text-align: center;
+  height: 35vh;
+  background-color: white;
+}
+
+.div2Text{
+font-size: 3rem;
+text-align: center;
+color:white;
+margin-bottom:30px;
+}
