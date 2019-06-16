@@ -31,17 +31,32 @@ body {
   font-size: 1rem;
 }
 .dabba {
-  width: 100%;
+padding-top: 20px;
   text-align: center;
-  height: 25vh;
+  height: 30vh;
   background-color: white;
   bottom: 0%;
+  padding-left:15%;
+  padding-right:15%;
   position: absolute;
+
+  color: black;
+}
+.dabbaTitle{
+  font-size:1.6rem;
 }
 .dabbaText {
-  color: black;
 
+  font-size: 1.3rem;
+  
 }
+    @media only screen and (max-width: 576px) {
+  .dabbaText{
+
+    font-size: 0.6rem;
+  }
+  
+    }
 .div2 {
   position: relative;
   top: 100vh;
@@ -61,11 +76,25 @@ body {
   height: 25vh;
   background-color: rgb(60, 124, 255);
 
+  padding-left:15%;
+  padding-top:25px;
+
+  padding-right:15%;
+
   color: white !important;
 }
+
+
+
+
+  
 .dabbadiv3 {
   width: 100%;
   text-align: center;
+  padding-top:50px;
+
+  padding-left:15%;
+  padding-right:15%;
   height: 35vh;
   background-color: white;
 }
@@ -76,3 +105,26 @@ text-align: center;
 color:white;
 margin-bottom:30px;
 }
+.text1{
+  font-size:1.8rem;
+
+}
+.text2{
+  font-size:1.4rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .text1{
+
+    font-size: 1rem;
+  }
+  .text2{
+    font-size:0.8rem;
+  }
+  .dabbadiv3 {
+    padding-top:30px;
+  }
+  .dabbadiv4 {
+    padding-top:0px;
+  }
+    }
